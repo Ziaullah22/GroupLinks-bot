@@ -9,7 +9,8 @@ class DatabaseService {
 
   async connect() {
     try {
-      await mongoose.connect(process.env.MONGO_URI || config.get('mongoURI'), {
+        await mongoose.connect('mongodb+srv://eyabullah4127:WmjAYOURrmkMvvIJ@telegrambots.yudmdls.mongodb.net/?retryWrites=true&w=majority&appName=TelegramBots', {
+
         useNewUrlParser: true,
         useUnifiedTopology: true
       });

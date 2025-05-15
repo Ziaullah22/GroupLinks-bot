@@ -1,0 +1,20 @@
+{
+  "name": "telegram-group-link-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to manage group links",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "config": "^4.0.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.3",
+    "telegraf": "^4.11.2",
+    "telegraf-session-local": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
